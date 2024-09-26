@@ -24,22 +24,12 @@ function App() {
     // fonction pour le bouton negatif/positif
 
     const handleSigneNegatif = () => {
-        if(number){
+        if (number) {
             setNumber((parseFloat(number) * -1).toString());
         }
-    };
-
-    // Fonction pour le pourcentage
-
-    const handlePourcentage = () => {
-        if (number) {
-            setNumber((parseFloat(number) / 100).toString());
-        }
-    };
-
+    }
 
     return (
-
             <div className="calculatrice">
 
                 <form action="">
@@ -47,9 +37,9 @@ function App() {
                         <input type="text" value={number} readOnly/>
                     </div>
                     <div>
-                        <input type="button" value="AC" className= 'delTout' onClick={()=> { setNumber("")}}/>
+                        <input type="button" value="AC" className='delTout' onClick={() => { setNumber("")}}/>
                         <input type="button" value="+/-" onClick={handleSigneNegatif}/>
-                        <input type="button" value="%" onClick={handlePourcentage}/>
+                        <input type="button" value="/" onClick={e => setNumber(number + e.target.value)}/>
                     </div>
                     <div>
                         <input type="button" value="7" onClick={e => setNumber(number + e.target.value)}/>

@@ -1,61 +1,61 @@
 
 
 #root {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(140deg, rgba(252, 189, 252, 0.95), #c21c5d);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(140deg, rgba(252, 189, 252, 0.95), #c21c5d);
 
 
 }
 
 .calculatrice {
-  padding: 20px;
-  border-radius: 10px;
-  background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
 
 }
 
 form input {
-  border: none;
-  outline: 0;
-  width: 60px;
-  height: 60px;
-  font-size:16px;
-  background-color: #856ddc;
-  margin: 2px;
-  border-radius: 10px;
-  color: white;
-  font-weight: bolder;
-  cursor: pointer;
+    border: none;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    font-size:16px;
+    background-color: #856ddc;
+    margin: 2px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 form input[type="button"]:hover{
-  background-color: #ec548a;
+    background-color: #ec548a;
 
 }
 
 form .display {
-  display:flex;
-  justify-content: flex-end;
-  margin: 5px 0px 15px 0px;
+    display:flex;
+    justify-content: flex-end;
+    margin: 5px 0px 15px 0px;
 
 }
 
 form .display input {
-  text-align: right;
-  flex:1;
-  font-size: 40px;
-  padding: 5px 10px;
-  background-color: #c7b1fd;
+    text-align: right;
+    flex:1;
+    font-size: 40px;
+    padding: 5px 10px;
+    background-color: #c7b1fd;
 }
 
 form input.egale {
-  width: 123px;
+    width: 123px;
 }
 
 form input.delTout{
-  width:123px;
+    width:123px;
 }
