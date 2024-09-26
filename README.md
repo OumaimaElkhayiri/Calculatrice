@@ -48,7 +48,7 @@ Pour calculer "2 + 3":
     Cliquez sur "2", 
     Cliquez sur "+", 
     Cliquez sur "3", 
-    Cliquez sur "=", 
+    Cliquez sur "=", <br />
     Le résultat "5" s'affichera
 
 2. Soustraction:
@@ -57,7 +57,7 @@ Pour calculer "5 - 7":
     Cliquez sur "5",
     Cliquez sur "-",
     Cliquez sur "7",
-    Cliquez sur "=", 
+    Cliquez sur "=", <br />
     Le résultat "-2" s'affichera
 
 3. Multiplication:
@@ -66,7 +66,7 @@ Pour calculer "11 * 11":
     Cliquez sur "11", 
     Cliquez sur "*", 
     Cliquez sur "11", 
-    Cliquez sur "=", 
+    Cliquez sur "=", <br />
     Le résultat "121" s'affichera
 
 4. Divison:
@@ -75,7 +75,7 @@ Pour calculer 5/5:
     Cliquez sur "5",
     Cliquez sur "/",
     Cliquez sur "5",
-    Cliquez sur "=",
+    Cliquez sur "=",<br />
     Le résultat "1" s'affichera
 
 5. Calcul plus complexe:
@@ -89,7 +89,7 @@ Pour calculer "5+6*7-8/2":
     Cliquez sur "-",
     Cliquez sur "8",
     Cliquez sur "/",
-    Cliquez sur "2",
+    Cliquez sur "2",<br />
     Le résultat affichera "43"
 
 --> Pour effacer le tout cliquez sur "AC"
