@@ -32,74 +32,74 @@ Ouvrez votre navigateur et allez sur http://localhost:5173
 Utilisation
 Une fois l'application lancée, vous pouvez utiliser la calculatrice en cliquant sur les boutons pour effectuer des opérations arithmétiques de base :
 
-AC : Efface tout
-+/- : Change le signe du nombre (positif/négatif)
-/ , * , - , + : Effectue des divisions, multiplications, soustractions et additions
-0-9 : Entrée des nombres
-. : Ajouter un point décimal
-= : Calcule le résultat
+(AC) : Efface tout, 
+(+/-) : Change le signe du nombre (positif/négatif), 
+(/ , * , - , +) : Effectue des divisions, multiplications, soustractions et additions, 
+(0-9) : Entrée des nombres, 
+(.) : Ajouter un point décimal, 
+(=) : Calcule le résultat, 
 
 
 Exemple de Calculs :
 1. Addition:
-Pour calculer 2 + 3 :
+Pour calculer "2 + 3":
     
-    Cliquez sur 2
-    Cliquez sur +
-    Cliquez sur 3
-    Cliquez sur =
-    Le résultat 5 s'affichera
+    Cliquez sur "2", 
+    Cliquez sur "+", 
+    Cliquez sur "3", 
+    Cliquez sur "=", 
+    Le résultat "5" s'affichera
 
 2. Soustraction:
-Pour calculer 5 - 7:
+Pour calculer "5 - 7":
 
-    Cliquez sur 5
-    Cliquez sur -
-    Cliquez sur 7
-    Cliquez sur = 
-    Le résultat -2 s'affichera
+    Cliquez sur "5",
+    Cliquez sur "-",
+    Cliquez sur "7",
+    Cliquez sur "=", 
+    Le résultat "-2" s'affichera
 
 3. Multiplication:
-Pour calculer 11 * 11 :
+Pour calculer "11 * 11":
     
-    Cliquez sur 11
-    Cliquez sur *
-    Cliquez sur 11
-    Cliquez sur =
-    Le résultat 121 s'affichera
+    Cliquez sur "11", 
+    Cliquez sur "*", 
+    Cliquez sur "11", 
+    Cliquez sur "=", 
+    Le résultat "121" s'affichera
 
 4. Divison:
-Pour calculer 5/5 :
+Pour calculer 5/5:
 
-    Cliquez sur 5
-    Cliquez sur /
-    Cliquez sur 5
-    Cliquez sur =
-    Le résultat 1 s'affichera
+    Cliquez sur "5",
+    Cliquez sur "/",
+    Cliquez sur "5",
+    Cliquez sur "=",
+    Le résultat "1" s'affichera
 
 5. Calcul plus complexe:
-Pour calculer 5+6*7-8/2
+Pour calculer "5+6*7-8/2":
 
-    Cliquez sur 5
-    Cliquez sur + 
-    Cliquez sur 6
-    Cliquez sur *
-    Cliquez sur 7
-    Cliquez sur -
-    Cliquez sur 8
-    Cliquez sur /
-    Cliquez sur 2
-    Le résultat affichera 43
+    Cliquez sur "5",
+    Cliquez sur "+",
+    Cliquez sur "6",
+    Cliquez sur "*",
+    Cliquez sur "7",
+    Cliquez sur "-",
+    Cliquez sur "8",
+    Cliquez sur "/",
+    Cliquez sur "2",
+    Le résultat affichera "43"
 
---> Pour effacer le tout cliquez sur AC
+--> Pour effacer le tout cliquez sur "AC"
 
 
 Structure des Fichiers
 src/
-├── App.js         # Composant principal de l'application
-├── App.css        # Styles pour la calculatrice
-├── index.js       # Point d'entrée de l'application React
-├── package.json   # Dépendances et scripts du projet
+        ├── App.js         # Composant principal de l'application
+        ├── App.css        # Styles pour la calculatrice
+        ├── index.js       # Point d'entrée de l'application React
+        ├── package.json   # Dépendances et scripts du projet
 
 Fonctionnalités Avancées : Ajouter des opérations avancées telles que la trigonométrie, les logarithmes, etc.
 Stylisation : Améliorer l'interface avec des frameworks comme Tailwind CSS
