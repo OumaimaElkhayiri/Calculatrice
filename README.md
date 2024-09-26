@@ -1,36 +1,36 @@
-Calculatrice Basique en Ligne
+**Calculatrice Basique en Ligne**
 Voci une calculatrice simple en ligne construite avec React pour l'interface utilisateur et Node.js <br />
 La calculatrice permet aux utilisateurs d'effectuer des opérations arithmétiques de base telles que l'addition, la soustraction, la multiplication et la division
 
-Fonctionnalités <br />
+**Fonctionnalités** <br />
 Opérations Arithmétiques de Base : Addition, soustraction, multiplication et division <br />
 Affichage : Affiche les calculs en cours et les résultats <br />
 Basculer Positif/Négatif : Change facilement un nombre de positif à négatif et vice-versa <br />
 Gestion des Erreurs : Affiche les erreurs en cas de calculs invalides <br />
 
-Technologies Utilisées <br />
+**Technologies Utilisées** <br />
 Frontend : React (JavaScript, JSX) <br />
 Installation et Configuration <br />
-Prérequis: 
 
+**Prérequis**: 
 Avant de lancer l'application, assurez-vous d'avoir installé :
 Node.js 
 npm ou yarn
 
-Étapes pour Exécuter Localement:
-Cloner le Dépôt :
-git clone : https://github.com/OumaimaElkhayiri/Calculatrice.git
+**Étapes pour Exécuter Localement:** <br />
+Cloner le Dépôt :<br />
+git clone : https://github.com/OumaimaElkhayiri/Calculatrice.git<br />
 cd Calculatrice-main
 
-Installer les Dépendances :
+**Installer les Dépendances :**
 npm install
 
-Démarrer l'Application :
-npm run dev
-Ouvrir l'Application :
+**Démarrer l'Application :** <br />
+npm run dev<br />
+Ouvrir l'Application :<br />
 Ouvrez votre navigateur et allez sur http://localhost:5173
 
-Utilisation
+**Utilisation** <br />
 Une fois l'application lancée, vous pouvez utiliser la calculatrice en cliquant sur les boutons pour effectuer des opérations arithmétiques de base :
 
 (AC) : Efface tout, <br />
@@ -41,7 +41,7 @@ Une fois l'application lancée, vous pouvez utiliser la calculatrice en cliquant
 (=) : Calcule le résultat
 
 
-Exemple de Calculs :
+**Exemples de Calculs :**
 1. Addition:
 Pour calculer "2 + 3":
     
@@ -95,14 +95,14 @@ Pour calculer "5+6*7-8/2":
 --> Pour effacer le tout cliquez sur "AC"
 
 
-Structure des Fichiers <br />
+**Structure des Fichiers** <br />
 src/ <br />
         ├── App.js         # Composant principal de l'application <br />
         ├── App.css        # Styles pour la calculatrice <br />
         ├── index.js       # Point d'entrée de l'application React <br />
         ├── package.json   # Dépendances et scripts du projet <br />
 
-Fonctionnalités Avancées : Ajouter des opérations avancées telles que la trigonométrie, les logarithmes, etc. <br />
+**Fonctionnalités Avancées Futures:** <br /> Ajouter des opérations avancées telles que la trigonométrie, les logarithmes, etc. <br />
 Stylisation : Améliorer l'interface avec des frameworks comme Tailwind CSS
 
 Licence
